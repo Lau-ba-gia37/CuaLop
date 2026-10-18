@@ -1,5 +1,4 @@
 
-/* ===== THIẾT LẬP CHUNG ===== */
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +16,6 @@ body {
     line-height: 1.6;
 }
 
-/* ===== THANH MENU ===== */
 .navbar {
     background-color: #0d6efd !important;
     padding: 12px 0;
@@ -43,7 +41,6 @@ body {
     font-weight: bold;
 }
 
-/* ===== ẢNH NỀN TRANG CHỦ ===== */
 .hero-section {
     min-height: 480px;
     background:
@@ -73,7 +70,6 @@ body {
     text-shadow: 1px 2px 4px #333;
 }
 
-/* ===== NÚT BẤM ===== */
 .btn {
     border-radius: 6px;
     transition: 0.3s;
@@ -96,7 +92,6 @@ body {
     transform: translateY(-3px);
 }
 
-/* ===== PHẦN GIỚI THIỆU ===== */
 section.bg-light {
     background-color: #f7f7fb !important;
 }
@@ -124,7 +119,6 @@ section .p-4 p {
     color: #555;
 }
 
-/* ===== TIÊU ĐỀ CÁC PHẦN ===== */
 section h2,
 .container h2 {
     font-size: 30px;
@@ -137,7 +131,6 @@ section h2,
     color: #666;
 }
 
-/* ===== ĐIỂM ĐẾN NỔI BẬT ===== */
 .card {
     border: 1px solid #e5e5e5;
     border-radius: 8px;
@@ -186,7 +179,6 @@ section h2,
     border-radius: 5px;
 }
 
-/* ===== ẨM THỰC ĐẶC SẢN ===== */
 .img-fluid {
     width: 100%;
     max-height: 400px;
@@ -218,7 +210,6 @@ section h2,
     color: #16c784;
 }
 
-/* ===== CHÂN TRANG ===== */
 footer {
     background-color: #212529 !important;
     color: white;
@@ -266,7 +257,6 @@ footer .btn:hover {
     transform: translateY(-3px);
 }
 
-/* ===== HIỂN THỊ TRÊN ĐIỆN THOẠI ===== */
 @media (max-width: 768px) {
     .hero-section {
         min-height: 350px;
